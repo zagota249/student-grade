@@ -64,7 +64,7 @@ const gradeBook = {
     let top = null;
     let highest = 0;
 
-    this.students.forEach(student => {
+  this.students.forEach(student => {
       const avg = this.averageGrade(student.name);
       if (avg > highest) {
         highest = avg;
@@ -72,7 +72,7 @@ const gradeBook = {
       }
     });
 
-    return top;
+  return top;
   }
 };
 
